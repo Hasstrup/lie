@@ -6,6 +6,30 @@
   font-family: tofino;
   src: url("../fonts/TofinoProPersonal-Semibold.otf"); }
 
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0.05; }
+  25% {
+    opacity: 0.25; }
+  50% {
+    opacity: 0.5; }
+  75% {
+    opacity: 0.75; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0.05; }
+  25% {
+    opacity: 0.25; }
+  50% {
+    opacity: 0.5; }
+  75% {
+    opacity: 0.75; }
+  100% {
+    opacity: 1; } }
+
 body {
   margin: 0; }
   body .main-page-container {
@@ -17,7 +41,9 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-flow: column nowrap;
-    flex-flow: column nowrap; }
+    flex-flow: column nowrap;
+    -webkit-animation: fade-in 1.2s;
+    animation: fade-in 1.2s; }
     body .main-page-container .__container__main__header {
       display: -webkit-box;
       display: -ms-flexbox;
