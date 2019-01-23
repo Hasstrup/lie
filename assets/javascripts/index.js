@@ -49,7 +49,18 @@ const ThrottleLocations = () => {
     
 }
 
+
+const RegisterListeners = () => {
+    $('.__grid__item').each((index, element) => {
+        $(element).click((e) => {
+            const url = $(e.currentTarget).data("url")
+            window.open(url, '_blank')
+        })
+    })
+}
+
 $( document ).ready(function() {
+ RegisterListeners()
   var speed = 55;
   var delay = $('.block__container__text__secondary').text().length * speed + speed;
   typeEffect($('.block__container__text__secondary'), speed);

@@ -47,7 +47,7 @@
       right: 0 !important;
       font-size: 16px !important; }
   .--top {
-    padding: 0 !important;
+    padding-bottom: 5% !important;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -76,8 +76,8 @@
       display: -webkit-box !important;
       display: -ms-flexbox !important;
       display: flex !important;
-      -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
       position: relative;
       bottom: -19% !important; } }
 

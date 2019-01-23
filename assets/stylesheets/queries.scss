@@ -71,7 +71,7 @@ $briefPhoneBreakPoint: 600px;
         }
     }
     .--top {
-        padding: 0 !important;
+        padding-bottom: 5% !important;
         display: flex !important;
         flex-flow: row nowrap;
         justify-content: space-evenly !important;
@@ -90,7 +90,7 @@ $briefPhoneBreakPoint: 600px;
         .--inline {
             font-size: 18px !important;
             display: flex !important;
-            flex-basis: 40%;
+            flex-basis: 50%;
             position: relative;
             bottom: -19% !important;
         }
