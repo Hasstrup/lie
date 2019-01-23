@@ -13,7 +13,7 @@
     width: 250px !important;
     height: 350px !important;
     background-color: #000000 !important;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-top: 10%;
     margin: 0 auto;
     top: 10% !important;
@@ -21,7 +21,8 @@
     .__header__image__block .block__container__main .block__container__text__main {
       font-size: 70px !important;
       line-height: 67px !important;
-      text-align: center; }
+      text-align: center;
+      right: -5%; }
     .__header__image__block .block__container__main .block__container__text__secondary {
       font-size: 25px !important;
       width: 100% !important;
@@ -30,7 +31,11 @@
       font-size: 24px !important;
       width: 100%;
       top: -52% !important;
-      text-align: center; } }
+      text-align: center; }
+    .__header__image__block .block__container__main .block__alternating__text {
+      top: -56% !important;
+      right: 0 !important;
+      font-size: 16px !important; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .__container__main__header {
@@ -43,7 +48,9 @@
       .__container__main__header .block__container__main .block__container__text__main {
         font-size: 90px !important;
         line-height: 85px !important;
-        text-align: center; }
+        text-align: center;
+        top: -15% !important;
+        right: -5%; }
       .__container__main__header .block__container__main .block__container__text__secondary {
         font-size: 26px !important;
         width: 100% !important;
@@ -52,7 +59,10 @@
         font-size: 25px !important;
         width: 100%;
         top: -52% !important;
-        text-align: center; } }
+        text-align: center; }
+      .__container__main__header .block__container__main .block__alternating__text {
+        top: -60% !important;
+        right: 0 !important; } }
 
 @media only screen and (width: 1024px) {
   .__container__main__header {
@@ -65,7 +75,9 @@
       .__container__main__header .block__container__main .block__container__text__main {
         font-size: 95px !important;
         line-height: 85px !important;
-        text-align: center; }
+        text-align: center;
+        top: -15% !important;
+        right: -5%; }
       .__container__main__header .block__container__main .block__container__text__secondary {
         font-size: 26.5px !important;
         width: 100% !important;
@@ -74,4 +86,8 @@
         font-size: 25.5px !important;
         width: 100%;
         top: -52% !important;
-        text-align: center; } }
+        text-align: center; }
+      .__container__main__header .block__container__main .block__alternating__text {
+        top: -53% !important;
+        font-size: 20px;
+        right: 0 !important; } }

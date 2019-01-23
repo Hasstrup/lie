@@ -22,7 +22,7 @@ $briefPhoneBreakPoint: 600px;
             width: 250px !important;
             height: 350px !important;
             background-color: #000000!important;
-            padding-right: 5%;
+            padding-right: 3%;
             padding-top: 10%;
             margin: 0 auto;
             top: 10% !important;
@@ -31,6 +31,7 @@ $briefPhoneBreakPoint: 600px;
                 font-size: 70px !important;
                 line-height: 67px !important;
                 text-align: center;
+                right: -5%;
             }
             .block__container__text__secondary {
                 font-size: 25px !important;
@@ -44,6 +45,12 @@ $briefPhoneBreakPoint: 600px;
                 width: 100%;
                 top: -52% !important;
                 text-align: center;
+            }
+
+            .block__alternating__text {
+                top: -56% !important;
+                right: 0 !important;
+                font-size: 16px !important;
             }
 
         }
@@ -64,6 +71,8 @@ $briefPhoneBreakPoint: 600px;
                 font-size: 90px !important;
                 line-height: 85px !important;
                 text-align: center;
+                top: -15% !important;
+                right: -5%;
             }
             .block__container__text__secondary {
                 font-size: 26px !important;
@@ -76,6 +85,11 @@ $briefPhoneBreakPoint: 600px;
                 width: 100%;
                 top: -52% !important;
                 text-align: center;
+            }
+
+            .block__alternating__text {
+                top: -60% !important;
+                right: 0 !important;
             }
         }
     }
@@ -95,6 +109,8 @@ $briefPhoneBreakPoint: 600px;
                 font-size: 95px !important;
                 line-height: 85px !important;
                 text-align: center;
+                top: -15% !important;
+                right: -5%;
             }
             .block__container__text__secondary {
                 font-size: 26.5px !important;
@@ -107,6 +123,12 @@ $briefPhoneBreakPoint: 600px;
                 width: 100%;
                 top: -52% !important;
                 text-align: center;
+            }
+
+            .block__alternating__text {
+                top: -53% !important;
+                font-size: 20px;
+                right: 0 !important;
             }
         }
     }
