@@ -5,6 +5,20 @@ $briefPhoneBreakPoint: 600px;
     #block__container__main {
         height: 320px !important
     }
+    #alternating-text {
+        top: -61% !important;
+        font-size: 15px !important;
+    }
+
+    #__website__ {
+        font-size: 16px !important;
+    }
+
+    #__banku__ {
+        font-size: 15px !important;
+        flex-basis: 50% !important;
+        bottom: -14% !important;
+    }
 }
 
 @media only screen and (max-width: $mobileBreakpoint) {
@@ -13,6 +27,7 @@ $briefPhoneBreakPoint: 600px;
     }
     .__container__main__body {
         padding-left: 0 !important;
+
     }
     .__header__image__block {
         .block__container {
@@ -55,6 +70,31 @@ $briefPhoneBreakPoint: 600px;
 
         }
     }
+    .--top {
+        padding: 0 !important;
+        display: flex !important;
+        flex-flow: row nowrap;
+        justify-content: space-evenly !important;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .__bus__container__item {
+        flex-basis: 100% !important;
+        .--text {
+            font-size: 19px !important;
+            flex-basis: 30%;
+            margin: 0 !important;
+        }
+        .--inline {
+            font-size: 18px !important;
+            display: flex !important;
+            flex-basis: 40%;
+            position: relative;
+            bottom: -19% !important;
+        }
+    }
 }
 
 // IPAD AND TABS
@@ -92,6 +132,9 @@ $briefPhoneBreakPoint: 600px;
                 right: 0 !important;
             }
         }
+    }
+    .--text {
+        margin-right: 35% !important;
     }
 }
 

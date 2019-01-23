@@ -1,6 +1,16 @@
 @media only screen and (max-height: 600px) {
   #block__container__main {
-    height: 320px !important; } }
+    height: 320px !important; }
+  #alternating-text {
+    top: -61% !important;
+    font-size: 15px !important; }
+  #__website__ {
+    font-size: 16px !important; }
+  #__banku__ {
+    font-size: 15px !important;
+    -ms-flex-preferred-size: 50% !important;
+    flex-basis: 50% !important;
+    bottom: -14% !important; } }
 
 @media only screen and (max-width: 480px) {
   body {
@@ -35,7 +45,41 @@
     .__header__image__block .block__container__main .block__alternating__text {
       top: -56% !important;
       right: 0 !important;
-      font-size: 16px !important; } }
+      font-size: 16px !important; }
+  .--top {
+    padding: 0 !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: space-evenly !important;
+    -ms-flex-pack: space-evenly !important;
+    justify-content: space-evenly !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%; }
+  .__bus__container__item {
+    -ms-flex-preferred-size: 100% !important;
+    flex-basis: 100% !important; }
+    .__bus__container__item .--text {
+      font-size: 19px !important;
+      -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+      margin: 0 !important; }
+    .__bus__container__item .--inline {
+      font-size: 18px !important;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+      position: relative;
+      bottom: -19% !important; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .__container__main__header {
@@ -62,7 +106,9 @@
         text-align: center; }
       .__container__main__header .block__container__main .block__alternating__text {
         top: -60% !important;
-        right: 0 !important; } }
+        right: 0 !important; }
+  .--text {
+    margin-right: 35% !important; } }
 
 @media only screen and (width: 1024px) {
   .__container__main__header {
