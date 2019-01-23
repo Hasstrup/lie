@@ -146,3 +146,12 @@ body {
             text-decoration: underline;
             -webkit-text-decoration-color: #F4D03F;
             text-decoration-color: #F4D03F; }
+        @media only screen and (max-width: 480px) {
+          body .main-page-container .__container__main__body .__container__four__grid {
+            -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+            body .main-page-container .__container__main__body .__container__four__grid div {
+              -ms-flex-preferred-size: 40%;
+              flex-basis: 40%;
+              height: 10%; } }
