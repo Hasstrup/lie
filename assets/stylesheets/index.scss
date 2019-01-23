@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: stardos-bold; 
+    src: url('../fonts/StardosStencil-Bold.ttf')
+}
+
+@font-face {
+    font-family: tofino;
+    src: url('../fonts/TofinoProPersonal-Semibold.otf')
+}
+
+body {
+    margin: 0;
+    .main-page-container {
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        flex-flow: column nowrap;
+        .__container__main__header {
+            display: flex;
+            height: 75vh;
+            position: relative;
+            // background: url('../images/net_eazi_compressed.jpg') no-repeat center center fixed;
+            // background-size: contain;
+            .__header__image {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                position: absolute;
+                top: 0;
+            }
+            .__header__image__block {
+                display: flex;
+                position: absolute;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 2;
+                flex-flow: row wrap;
+                .block__container {
+                    display: flex;
+                    flex-basis: 40%;
+                }
+                .block__container__main {
+                    width: 25%;
+                    height: 79%;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    background-color: black;
+                    position: relative;
+                    top: 5%;
+                    left: 10%;
+                    padding-left: 3%;
+                    .block__container__text__main {
+                        font-size: 132px;
+                        width: 90%;
+                        color: white;
+                        position: relative;
+                        top: -18%;
+                        line-height: 125px;
+                        font-family: stardos-bold;
+                    }
+                    .block__container__text__secondary {
+                        color: white;
+                        font-family: tofino;
+                        font-size: 28px;
+                        width: 80%;
+                        padding-left: 2%;
+                        text-align: center;
+                        position: relative;
+                        top: -52%;
+                    }
+
+                    .block__container__text__ {
+                        color: white;
+                        font-family: tofino;
+                        font-size: 28px;
+                        width: 100%;
+                        position: relative;
+                        top: -62%;
+                    }
+
+                }
+            }
+        }
+        .__container__main__body {
+            display: flex;
+            flex-basis: 65%;
+            background-color: red;
+        }
+    }
+}
