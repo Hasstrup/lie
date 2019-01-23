@@ -1,4 +1,6 @@
 
+@import '../mixins/index.scss';
+
 @font-face {
     font-family: stardos-bold; 
     src: url('../fonts/StardosStencil-Bold.ttf')
@@ -10,6 +12,7 @@
 }
 
 body {
+    // background-color: black;
     margin: 0;
     .main-page-container {
         display: flex;
@@ -25,7 +28,7 @@ body {
             .__header__image {
                 height: 100%;
                 width: 100%;
-                object-fit: contain;
+                object-fit: cover;
                 position: absolute;
                 top: 0;
             }
@@ -86,7 +89,12 @@ body {
         .__container__main__body {
             display: flex;
             flex-basis: 65%;
-            background-color: red;
+            min-width: 60%;
+            margin: 0 auto;
+            padding-top: 2%;
+            .__container__four__grid {
+                @include four-grid-container
+            }
         }
     }
 }

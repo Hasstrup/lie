@@ -1,0 +1,39 @@
+@mixin four-grid-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    div {  
+        @include grid-item;
+        flex-basis: 18.5%;
+    }
+}
+
+@mixin grid-item {
+    flex-flow: column nowrap;
+    height: 30%;
+    .__grid__item__date {
+        color: black;
+        font-size: 13.6px;
+        font-family: stardos-bold;
+    }
+    .__grid__item__location {
+        background-color: black;
+        height: 20px; 
+        width: 100px;
+        padding-left: 10px;
+        padding-top: 5px;
+        color: white;
+        font-family: tofino;
+        font-size: 13.6px;
+        position: relative;
+        top: -10px;
+    }
+    .__grid__item__venue {
+        color: black;
+        font-family: tofino;
+        font-size: 13.6px;
+        position: relative;
+        top: -15px;
+    }
+}
