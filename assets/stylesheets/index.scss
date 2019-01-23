@@ -32,6 +32,16 @@ body {
             display: flex;
             height: 75vh;
             position: relative;
+            &:after {
+                content:"";
+                background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255, 255, 255,0.75), rgba(255, 255, 255,0));
+                display: block;
+                height:90px;
+                width: 100%;
+                border-top: -1;
+                position: absolute;
+                bottom: 0;
+            }
             // background: url('../images/net_eazi_compressed.jpg') no-repeat center center fixed;
             // background-size: contain;
             .__header__image {
@@ -103,6 +113,7 @@ body {
             margin: 0 auto;
             padding-top: 2%;
             padding-left: 10%;
+
             .__container__four__grid {
                 @include four-grid-container
             }

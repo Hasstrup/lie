@@ -50,6 +50,18 @@ body {
       display: flex;
       height: 75vh;
       position: relative; }
+      body .main-page-container .__container__main__header:after {
+        content: "";
+        background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0)));
+        background-image: -webkit-linear-gradient(bottom, white, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+        background-image: -o-linear-gradient(bottom, white, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+        background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+        display: block;
+        height: 90px;
+        width: 100%;
+        border-top: -1;
+        position: absolute;
+        bottom: 0; }
       body .main-page-container .__container__main__header .__header__image {
         height: 100%;
         width: 100%;
