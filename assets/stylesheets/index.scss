@@ -19,6 +19,11 @@
     100% {opacity: 1}
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 body {
     margin: 0;
     .main-page-container {
@@ -79,6 +84,7 @@ body {
                         line-height: 125px;
                         font-family: stardos-bold;
                         text-align: center;
+                        // animation: typing 3.5s steps(30, end);
                     }
                     .block__container__text__secondary {
                         color: white;
@@ -92,6 +98,7 @@ body {
                     }
 
                     .block__container__text__ {
+                        display: none;
                         color: white;
                         font-family: tofino;
                         font-size: 28px;
@@ -102,12 +109,14 @@ body {
 
                     .block__alternating__text {
                         text-align: center;
+                        display: none;
                         font-family: tofino;
                         font-size: 18px;
                         color: #F2F3F4;
                         position: relative;
                         top: -74%;
                         right: 8%;
+                        animation: fade-in .5s;
                     }
 
                 }
