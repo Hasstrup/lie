@@ -72,7 +72,8 @@ body {
             position: relative;
             top: -18%;
             line-height: 125px;
-            font-family: stardos-bold; }
+            font-family: stardos-bold;
+            text-align: center; }
           body .main-page-container .__container__main__header .__header__image__block .block__container__main .block__container__text__secondary {
             color: white;
             font-family: tofino;
@@ -155,3 +156,8 @@ body {
               -ms-flex-preferred-size: 40%;
               flex-basis: 40%;
               height: 10%; } }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          body .main-page-container .__container__main__body .__container__four__grid div {
+            -ms-flex-preferred-size: 33.33%;
+            flex-basis: 33.33%;
+            height: 10%; } }

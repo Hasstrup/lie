@@ -49,3 +49,66 @@ $briefPhoneBreakPoint: 600px;
         }
     }
 }
+
+// IPAD AND TABS
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .__container__main__header {
+        height: 50vh !important;
+
+        .block__container__main {
+            height: 75% !important;
+            width: 35% !important;
+            top: 10% !important;
+            padding-right: 4%;
+            .block__container__text__main {
+                font-size: 90px !important;
+                line-height: 85px !important;
+                text-align: center;
+            }
+            .block__container__text__secondary {
+                font-size: 26px !important;
+                width: 100% !important;
+                top: -42% !important;
+
+            }
+            .block__container__text__ {
+                font-size: 25px !important;
+                width: 100%;
+                top: -52% !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media only screen and (width: 1024px) {
+    .__container__main__header {
+        height: 40vh !important;
+
+        .block__container__main {
+            height: 73% !important;
+            width: 35% !important;
+            top: 10% !important;
+            padding-right: 2%;
+            .block__container__text__main {
+                font-size: 95px !important;
+                line-height: 85px !important;
+                text-align: center;
+            }
+            .block__container__text__secondary {
+                font-size: 26.5px !important;
+                width: 100% !important;
+                top: -42% !important;
+
+            }
+            .block__container__text__ {
+                font-size: 25.5px !important;
+                width: 100%;
+                top: -52% !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
