@@ -59,6 +59,7 @@ const RegisterListeners = () => {
     })
 }
 
+
 $( document ).ready(function() {
  RegisterListeners()
   var speed = 55;
