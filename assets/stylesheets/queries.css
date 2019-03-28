@@ -144,3 +144,13 @@
         top: -53% !important;
         font-size: 20px;
         right: 0 !important; } }
+
+@media only screen and (min-width: 1920px) {
+  .block__container__text__main {
+    top: -15% !important; }
+  .block__container__text__secondary {
+    top: -38% !important; }
+  .block__container__text__ {
+    top: -44% !important; }
+  .block__alternating__text {
+    top: -42% !important; } }
