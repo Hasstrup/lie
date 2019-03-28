@@ -17,6 +17,10 @@
     overflow-x: hidden; }
   .__container__main__body {
     padding-left: 0 !important; }
+  .rescheduled__pointer__ {
+    height: auto !important;
+    width: 90% !important;
+    left: 0 !important; }
   .__header__image__block .block__container {
     display: none !important; }
   .__header__image__block .block__container__main {
@@ -108,7 +112,10 @@
         top: -60% !important;
         right: 0 !important; }
   .--text {
-    margin-right: 35% !important; } }
+    margin-right: 35% !important; }
+  .rescheduled__pointer__ {
+    height: auto !important;
+    width: 50% !important; } }
 
 @media only screen and (width: 1024px) {
   .__container__main__header {

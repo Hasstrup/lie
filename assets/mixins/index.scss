@@ -42,6 +42,10 @@
         font-size: 13.6px;
         position: relative;
         top: -10px;
+        &.__updated__ {
+          background-color:#F4D03F;
+          color: black;
+        }
     }
     .__grid__item__venue {
         color: black;
@@ -56,6 +60,10 @@
             background-color:#F4D03F;
             color: black;
             cursor: pointer;
+            &.__updated__ {
+                background-color: black;
+                color: white;
+              }
         }
         .__grid__item__venue {
             text-decoration: underline;

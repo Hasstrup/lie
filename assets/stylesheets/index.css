@@ -176,7 +176,8 @@ body {
         -ms-flex-flow: row wrap;
         flex-flow: row wrap;
         -ms-flex-preferred-size: 70%;
-        flex-basis: 70%; }
+        flex-basis: 70%;
+        margin-bottom: 5%; }
         body .main-page-container .__container__main__body .__container__four__grid div {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
@@ -200,6 +201,9 @@ body {
             font-size: 13.6px;
             position: relative;
             top: -10px; }
+            body .main-page-container .__container__main__body .__container__four__grid div .__grid__item__location.__updated__ {
+              background-color: #F4D03F;
+              color: black; }
           body .main-page-container .__container__main__body .__container__four__grid div .__grid__item__venue {
             color: black;
             font-family: tofino;
@@ -211,6 +215,9 @@ body {
             background-color: #F4D03F;
             color: black;
             cursor: pointer; }
+            body .main-page-container .__container__main__body .__container__four__grid div:hover .__grid__item__location.__updated__ {
+              background-color: black;
+              color: white; }
           body .main-page-container .__container__main__body .__container__four__grid div:hover .__grid__item__venue {
             text-decoration: underline;
             -webkit-text-decoration-color: #F4D03F;
@@ -283,3 +290,16 @@ body {
             display: inline;
             -ms-flex-item-align: end;
             align-self: flex-end; }
+    body .main-page-container .rescheduled__pointer__ {
+      margin: 0 auto;
+      height: 5.5rem;
+      width: 38%;
+      background-color: #F4D03F;
+      color: black;
+      text-align: center;
+      margin-bottom: 2%;
+      position: relative;
+      left: -5%; }
+      body .main-page-container .rescheduled__pointer__ p {
+        font-family: stardos-bold;
+        font-size: 1.4rem; }

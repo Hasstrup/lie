@@ -134,6 +134,7 @@ body {
             .__container__four__grid {
                 @include four-grid-container;
                 flex-basis: 70%;
+                margin-bottom: 5%;
             }
             .__bus__container {
                 display: flex;
@@ -176,6 +177,21 @@ body {
                         align-self: flex-end;
                     }
                 }
+            }
+        }
+        .rescheduled__pointer__ {
+            margin: 0 auto;
+            height: 5.5rem;
+            width: 38%;
+            background-color: #F4D03F;
+            color: black;
+            text-align: center;
+            margin-bottom: 2%;
+            position: relative;
+            left: -5%;
+            p {
+                font-family: stardos-bold;
+                font-size: 1.4rem;
             }
         }
     }
